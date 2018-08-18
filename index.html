@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Home</title>
+        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=".">Home</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href=".">Home</a>
+                            </li>
+                            <li >
+                                <a href="features/">Features</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="examples/examples_contents/">Contents</a>
+</li>
+                                    
+<li >
+    <a href="examples/rcs/">RCS</a>
+</li>
+                                    
+<li >
+    <a href="examples/antenna/">Antenna</a>
+</li>
+                                    
+<li >
+    <a href="examples/waveguide/">Waveguide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="documentation/doc_contents/">Contents</a>
+</li>
+                                    
+<li >
+    <a href="documentation/release_notes/">Version</a>
+</li>
+                                    
+<li >
+    <a href="documentation/install/">Install</a>
+</li>
+                                    
+<li >
+    <a href="documentation/modeling/">Modeling</a>
+</li>
+                                    
+<li >
+    <a href="documentation/meshing/">Meshing</a>
+</li>
+                                    
+<li >
+    <a href="documentation/source/">Source</a>
+</li>
+                                    
+<li >
+    <a href="documentation/electromagnetics/">Electromagnetics</a>
+</li>
+                                    
+<li >
+    <a href="documentation/optimization/">Optimization</a>
+</li>
+                                    
+<li >
+    <a href="documentation/plotting/">Plotting</a>
+</li>
+                                    
+<li >
+    <a href="documentation/hardware/">Hardware Acceleration</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="team/">Team</a>
+                            </li>
+                            <li >
+                                <a href="download/">Download</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="disabled">
+                                <a rel="next" >
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="features/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#features">Features</a></li>
+        <li class="main "><a href="#news">News</a></li>
+        <li class="main "><a href="#latest-release">Latest Release</a></li>
+        <li class="main "><a href="#user-guide">User Guide</a></li>
+        <li class="main "><a href="#contact">Contact</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<div class="col-md-6">
+<p><img alt="DGTD logo" src="img/nano_sphere-mesh.jpg" /></p>
+<p>DGTD is a <strong>fast</strong>, <strong>large-scale</strong>, <strong>high-precision</strong> numerical simulation software for electromagnetic problems. DGTD is designed to solve the most common types of scattering problem, radiation problem and waveguide problem. DGTD is now in the state of new release, the relevant agencies are welcome to test the functions of DGTD.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>High Precision for Complex Structure Objects [Details].</li>
+<li>Structured-Unstructured Hybrid Mesh Technology <a href="features/#wide-range-of-mesh-types">Details</a>.</li>
+<li>Distributed High Performance Computing <a href="features/#wide-range-of-mesh-types">Details</a>.</li>
+<li>Be Suitable for Scattering, Radiation, Waveguide Problems <a href="examples/?amr">Details</a>.</li>
+<li>Peculiar Inhomogeneous Wave Port Solver <a href="http://computation.llnl.gov/blast/parallel-performance">Details</a>.</li>
+<li>Local Time Step and Explicit-Implicit Scheme Technology <a href="features/">Details</a>.</li>
+</ul>
+</div>
+<div class="col-md-6 news-table">
+<h2 id="news">News</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Message</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jun 15, 2018</td>
+<td>Critical updates with Version 2.0 <a href="https://github.com/mfem/mfem/blob/v3.4/CHANGELOG">Details</a>.</td>
+</tr>
+<tr>
+<td>Jun 10, 2018</td>
+<td>SPPS is avaible in DGTD <a href="https://github.com/openhpc/ohpc/releases/tag/v1.3.4.GA">Details</a>.</td>
+</tr>
+<tr>
+<td>Jun  8, 2018</td>
+<td>DGTD Version 1.2 <a href="https://str.llnl.gov/2018-01/lee">Released</a>.</td>
+</tr>
+<tr>
+<td>Jun  1, 2018</td>
+<td>DGTD Version 1.0 <a href="https://github.com/mfem/mfem/blob/v3.3.2/CHANGELOG">Published</a>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="latest-release">Latest Release</h2>
+<p><a href="https://github.com/mfem/mfem/blob/v3.4/CHANGELOG">New features</a>
+┊ <a href="examples/">Examples</a>
+┊ <a href="http://mfem.github.io/doxygen/html/index.html">Documentation</a></p>
+<p><a href="https://goo.gl/Cq4f4Z"><button type="button" class="btn btn-success">
+<strong>Download DGTD Version 1.0</strong>
+</button></a></p>
+<p>For older releases see the <a href="download/">download</a> section.</p>
+<h2 id="user-guide">User Guide</h2>
+<p><a href="building.md">Install for Linux</a>
+┊ <a href="serial-tutorial.md">Install for Windows</a>
+┊ <a href="parallel-tutorial.md">Parallel Guide</a></p>
+<p><a href="fem.md">Scattering Application</a>
+┊ <a href="electromagnetics/">Radiation Application</a>
+┊ <a href="meshing/">Waveguide Application</a></p>
+<p>More details and functions are referenced to the <a href="">Manual Documentation</a>.</p>
+<h2 id="contact">Contact</h2>
+<p>E-mail: birdchen207@gamil.com<br />
+Phone : +8618752126351<br />
+Adress: There is adress</p>
+</div>
+<div class="col-md-12"></div></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"next": 78, "previous": 80, "help": 191, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.0.1
+Build Date UTC : 2018-08-18 12:32:20
+-->
